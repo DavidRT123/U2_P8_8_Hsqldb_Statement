@@ -2,6 +2,21 @@
  * Basándote en el ejercicio 6 rectifica lo que haga falta para hacer lo mismo con las base de
  * HSQLDB.
  */
+
+//ANOTACIONES ÚTILES
+/*
+    1. Situarse en el directorio de hsqldb: cd c:/hsqldb-2.4.1/hsqldb
+
+    2. Iniciar la herramienta de texto: java -jar lib/sqltool.jar
+
+    3. Acceder a la BBDD/Crear BBDD: \j SA jdbc:hsqldb:C:/hsqldb-2.4.1/hsqldb/hsqldb/ejemplo1
+
+    4. Hacer consulta: SELECT * FROM PROFESORES; (si se realizan inserciones, borrados o actualizaciones hay que realizar un "COMMIT;" justo después para conservar los cambios)
+
+    5. Apagar BBDD: SHUTDOWN;
+
+    6. Quitar herramienta texto: \q
+*/
 package u2_p8_8_hsqldb;
 
 import java.sql.Connection;
